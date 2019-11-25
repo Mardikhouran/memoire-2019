@@ -1,0 +1,752 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.7 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{nyt/global/}
+    \entry{bleier_digital_2018}{book}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,hash=da06e23419503c49acca72ded1c58c98}{%
+           family={Bleier},
+           family_i={B\bibinitperiod},
+           given={Roman},
+           given_i={R\bibinitperiod}}}%
+        {{uniquename=0,hash=ae2b34ea49be2bba255d392f85082f20}{%
+           family={Bürgermeister},
+           family_i={B\bibinitperiod},
+           given={Martina},
+           given_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=d155b98fb5c398301d218ae0ed8164c7}{%
+           family={Klug},
+           family_i={K\bibinitperiod},
+           given={Helmut\bibnamedelima W},
+           given_i={H\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{uniquename=0,hash=236a84e71614d8c50105326275f379ba}{%
+           family={Neuber},
+           family_i={N\bibinitperiod},
+           given={Frederike},
+           given_i={F\bibinitperiod}}}%
+        {{uniquename=0,hash=d50d05014f8941aac584c8e6488e9552}{%
+           family={Schneider},
+           family_i={S\bibinitperiod},
+           given={Gerlinde},
+           given_i={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{6556bc1db6389528802ac1bbdbb645bc}
+      \strng{fullhash}{2755b7fb7ffca44fc7f39116dc178646}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{2018}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-3-7481-0925-9}
+      \field{note}{{OCLC}: 1079409488}
+      \field{title}{Digital Scholarly Editions as Interfaces.}
+      \field{urlday}{28}
+      \field{urlmonth}{01}
+      \field{urlyear}{2019}
+      \field{year}{2018}
+      \verb{url}
+      \verb http://www.bod.de/index.php?id=296&objk_id=2544467
+      \endverb
+    \endentry
+    \entry{borges_idioma_1952}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=55c46750cf7ab3664d78a35aff495868}{%
+           family={Borges},
+           family_i={B\bibinitperiod},
+           given={Jorge\bibnamedelima Luis},
+           given_i={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{55c46750cf7ab3664d78a35aff495868}
+      \strng{fullhash}{55c46750cf7ab3664d78a35aff495868}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{1952}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Otras inquisiciones}
+      \field{title}{El idioma analítico de John Wilkins}
+      \field{year}{1952}
+      \field{pages}{158\bibrangedash 159}
+      \range{pages}{2}
+      \verb{file}
+      \verb Borges - 1952 - El idioma analítico de John Wilkins.pdf:/Users/alexishuchelmann/Documents/Mes textes/Linguistique/Idéolangues/Expérimentales/Borges - 1952 - El idioma analítico de John Wilkins.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{bryden_moxon_2004}{inreference}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=ef833269611084e7932944a93be7e839}{%
+           family={Bryden},
+           family_i={B\bibinitperiod},
+           given={D.\bibnamedelimi J.},
+           given_i={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{ef833269611084e7932944a93be7e839}
+      \strng{fullhash}{ef833269611084e7932944a93be7e839}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{2004}
+      \field{labelmonth}{09}
+      \field{labelday}{23}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Oxford Dictionary of National Biography}
+      \field{day}{23}
+      \field{langid}{english}
+      \field{month}{09}
+      \field{title}{Moxon, Joseph (1627–1691), printer and globe maker}
+      \field{urlday}{14}
+      \field{urlmonth}{10}
+      \field{urlyear}{2019}
+      \field{year}{2004}
+      \verb{doi}
+      \verb 10.1093/ref:odnb/19466
+      \endverb
+      \verb{file}
+      \verb Snapshot:/Users/alexishuchelmann/Zotero/storage/PIEXB8UI/odnb-9780198614128-e-19466.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://www-oxforddnb-com.scd-rproxy.u-strasbg.fr/view/10.1093/ref:odnb/9780198614128.001.0001/odnb-9780198614128-e-19466
+      \endverb
+    \endentry
+    \entry{burnard_tei_2012}{misc}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=277f5a773aab2b436af3bd283c432331}{%
+           family={Burnard},
+           family_i={B\bibinitperiod},
+           given={Lou},
+           given_i={L\bibinitperiod}}}%
+        {{uniquename=0,hash=9fa59ba347a408134c376d19086b5e3e}{%
+           family={Sperberg-{McQueen}},
+           family_i={S\bibinithyphendelim M\bibinitperiod},
+           given={C\bibnamedelima M},
+           given_i={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{8dd09c3add5e249ae7b7b3ca2b7d52f8}
+      \strng{fullhash}{8dd09c3add5e249ae7b7b3ca2b7d52f8}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{2012}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{{TEI} Lite: Encoding for Interchange: an introduction to the {TEI} — Final revised edition for {TEI} P5}
+      \field{urlday}{20}
+      \field{urlmonth}{09}
+      \field{urlyear}{2019}
+      \field{year}{2012}
+      \verb{file}
+      \verb Burnard and Sperberg-McQueen - TEI Lite Encoding for Interchange an introductio.pdf:/Users/alexishuchelmann/Zotero/storage/I73QWCGQ/Burnard and Sperberg-McQueen - TEI Lite Encoding for Interchange an introductio.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb https://tei-c.org/release/doc/tei-p5-exemplars/pdf/tei_lite.doc.pdf
+      \endverb
+    \endentry
+    \entry{camps_tei_nodate}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=16d4f02e5493261103bfb3611317d21d}{%
+           family={Camps},
+           family_i={C\bibinitperiod},
+           given={Jean-Baptiste},
+           given_i={J\bibinithyphendelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{16d4f02e5493261103bfb3611317d21d}
+      \strng{fullhash}{16d4f02e5493261103bfb3611317d21d}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelyear}{2019}
+      \field{labelmonth}{01}
+      \field{labelday}{23}
+      \field{datelabelsource}{url}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{En matière d’édition critique électronique, la norme qui semble aujourd’hui s’imposer suppose l’emploi du {XML} {TEI}. Mais, pour la version papier de cette même édition — on peut après tout souhaiter disposer également d’une version papier, ne serait-ce que parce que … Continuer la lecture →}
+      \field{langid}{french}
+      \field{shorttitle}{{TEI}, {LaTeX} et les éditions critiques sur papier}
+      \field{title}{{TEI}, {LaTeX} et les éditions critiques sur papier : I. Les différents packages}
+      \field{titleaddon}{Sacré Gr@@l}
+      \field{type}{Billet}
+      \field{urlday}{23}
+      \field{urlmonth}{01}
+      \field{urlyear}{2019}
+      \verb{file}
+      \verb Snapshot:/Users/alexishuchelmann/Zotero/storage/HVR5JBVF/484.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://graal.hypotheses.org/484
+      \endverb
+    \endentry
+    \entry{noauthor_court_2018}{online}{}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelyear}{2018}
+      \field{labelmonth}{12}
+      \field{labelday}{30}
+      \field{datelabelsource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{30}
+      \field{month}{12}
+      \field{title}{Court Order to Block Access from Germany}
+      \field{titleaddon}{Project Gutenberg Library Archive Foundation}
+      \field{urlday}{07}
+      \field{urlmonth}{10}
+      \field{urlyear}{2019}
+      \field{year}{2018}
+      \verb{url}
+      \verb https://cand.pglaf.org/germany/index.html
+      \endverb
+    \endentry
+    \entry{delmotte_publications_2009}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=d5ba64b9ae09ae378041f65c601889f4}{%
+           family={Delmotte},
+           family_i={D\bibinitperiod},
+           given={Stéphanie},
+           given_i={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{d5ba64b9ae09ae378041f65c601889f4}
+      \strng{fullhash}{d5ba64b9ae09ae378041f65c601889f4}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labelyear}{2009}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1622-1494}
+      \field{journaltitle}{Les Cahiers du numerique}
+      \field{langid}{french}
+      \field{number}{2}
+      \field{title}{Publications scientifiques en sciences humaines}
+      \field{urlday}{23}
+      \field{urlmonth}{01}
+      \field{urlyear}{2019}
+      \field{volume}{Vol. 5}
+      \field{year}{2009}
+      \field{pages}{53\bibrangedash 84}
+      \range{pages}{32}
+      \verb{file}
+      \verb Full Text PDF:/Users/alexishuchelmann/Zotero/storage/JS6LTGHW/Delmotte - 2009 - Publications scientifiques en sciences humaines.pdf:application/pdf;Snapshot:/Users/alexishuchelmann/Zotero/storage/BE49ERT6/revue-les-cahiers-du-numerique-2009-2-page-53.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://www.cairn.info/revue-les-cahiers-du-numerique-2009-2-page-53.htm
+      \endverb
+    \endentry
+    \entry{henderson_life_2008}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=685b76945d6d5192a717ac4b7c278e46}{%
+           family={Henderson},
+           family_i={H\bibinitperiod},
+           given={P.\bibnamedelimi A.\bibnamedelimi Wright},
+           given_i={P\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{685b76945d6d5192a717ac4b7c278e46}
+      \strng{fullhash}{685b76945d6d5192a717ac4b7c278e46}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelyear}{2008}
+      \field{labelmonth}{09}
+      \field{labelday}{20}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{20}
+      \field{month}{09}
+      \field{title}{The Life and Times of John Wilkins Warden of Wadham College, Oxford; Master of Trinity College, Cambridge; and Bishop of Chester}
+      \field{urlday}{23}
+      \field{urlmonth}{09}
+      \field{urlyear}{2019}
+      \field{year}{2008}
+      \verb{url}
+      \verb http://www.gutenberg.org/ebooks/26674
+      \endverb
+      \keyw{Bishops -- England -- Chester -- Biography,Wadham College,Wilkins,John,1614-1672}
+    \endentry
+    \entry{huchelmann_les_2019}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=411932017561e4acdc725e87f481256a}{%
+           family={Huchelmann},
+           family_i={H\bibinitperiod},
+           given={Alexis},
+           given_i={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{411932017561e4acdc725e87f481256a}
+      \strng{fullhash}{411932017561e4acdc725e87f481256a}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelyear}{2019}
+      \field{labelmonth}{04}
+      \field{labelday}{01}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Ce mémoire présente une définition, une histoire et une classification des langues construites, ou idéolangues ; et la description de la méthode employée pour construire une langue a priori nommée tüchte, dans le but de découvrir ce que cette occupation peut apporter à la linguistique.}
+      \field{day}{01}
+      \field{issue}{fl-00005B-00}
+      \field{journaltitle}{Fiat Lingua}
+      \field{langid}{french}
+      \field{month}{04}
+      \field{shorttitle}{Les langues construites}
+      \field{title}{Les langues construites : délimitation, historique et typologie suivies d’une illustration du processus de création d’une langue naturaliste nommée «tüchte»}
+      \field{urlday}{25}
+      \field{urlmonth}{09}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \verb{file}
+      \verb Snapshot:/Users/alexishuchelmann/Zotero/storage/MNQHDS4A/» Alexis Huchelmann Fiat Lingua.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://fiatlingua.org/2019/04/
+      \endverb
+    \endentry
+    \entry{lebert_projet_2010}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=d741c79690d0a748f4888cf0baa118c2}{%
+           family={Lebert},
+           family_i={L\bibinitperiod},
+           given={Marie},
+           given_i={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Project Gutenberg}%
+      }
+      \strng{namehash}{d741c79690d0a748f4888cf0baa118c2}
+      \strng{fullhash}{d741c79690d0a748f4888cf0baa118c2}
+      \field{sortinit}{L}
+      \field{sortinithash}{872351f18d0f736066eda0bf18bfa4f7}
+      \field{labelyear}{2010}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Le premier livre numérique date de juillet 1971. Il s'agit du {eText} \#1 du Projet Gutenberg, un projet visionnaire lancé par Michael Hart pour créer des versions électroniques d'oeuvres littéraires et les diffuser dans le monde entier. Au 16e siècle, Gutenberg avait permis à chacun d'avoir des livres imprimés pour un prix relativement modique. Au 21e siècle, le Projet Gutenberg permettrait à chacun d'avoir une bibliothèque numérique gratuite. Ce projet trouve un second souffle et un rayonnement international avec l'apparition du web en 1990 puis la création de Distributed Proofreaders en 2000, pour partager la relecture des livres entre des milliers de volontaires. En 2009, le site originel du Projet Gutenberg compte 3 millions de téléchargements par mois, sans compter les téléchargements des 38 sites miroirs répartis sur toute la planète.}
+      \field{langid}{french}
+      \field{title}{Le Projet Gutenberg (1971-2009)}
+      \field{year}{2010}
+      \verb{url}
+      \verb http://www.gutenberg.org/cache/epub/31634/pg31634-images.html
+      \endverb
+    \endentry
+    \entry{okrent_land_2009}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=d3c7fbff22bcae3077f0db5a2584729d}{%
+           family={Okrent},
+           family_i={O\bibinitperiod},
+           given={Arika},
+           given_i={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Spiegel \& Grau}%
+      }
+      \strng{namehash}{d3c7fbff22bcae3077f0db5a2584729d}
+      \strng{fullhash}{d3c7fbff22bcae3077f0db5a2584729d}
+      \field{sortinit}{O}
+      \field{sortinithash}{7803d2715d5e795e70382b084ab8d00e}
+      \field{labelyear}{2009}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Okrent tells the fascinating and highly entertaining history of man's enduring quest to build a better language. Peopled with charming eccentrics and exasperating megalomaniacs, the land of invented languages is a place where you can recite the Lord's Prayer in John Wilkins's Philosophical Language, say your wedding vows in Loglan, and read "Alice's Adventures in Wonderland" in Lojban--not to mention Babm, Blissymbolics, and the nearly nine hundred other invented languages featured in this language-lover's book.}
+      \field{isbn}{978-0-385-52971-6}
+      \field{shorttitle}{In the land of invented languages}
+      \field{title}{In the land of invented languages Esperanto rock stars, Klingon poets, Loglan lovers, and the mad dreamers who tried to build a perfect language}
+      \field{urlday}{08}
+      \field{urlmonth}{04}
+      \field{urlyear}{2016}
+      \field{year}{2009}
+    \endentry
+    \entry{patonnier_les_2011}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=88ecce730aff18a705cf1f175adb5968}{%
+           family={Patonnier},
+           family_i={P\bibinitperiod},
+           given={Jérémie},
+           given_i={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{88ecce730aff18a705cf1f175adb5968}
+      \strng{fullhash}{88ecce730aff18a705cf1f175adb5968}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labelyear}{2011}
+      \field{labelmonth}{04}
+      \field{labelday}{06}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{On sait tous que les navigateurs ne sont pas les champions du monde de la gestion typographique. Ceci étant, ils s’améliorent tous les jours et parmi toutes les chipoteries}
+      \field{day}{06}
+      \field{langid}{french}
+      \field{month}{04}
+      \field{title}{Les ligatures dans les navigateurs}
+      \field{titleaddon}{Typographisme}
+      \field{type}{text}
+      \field{urlday}{29}
+      \field{urlmonth}{01}
+      \field{urlyear}{2019}
+      \field{year}{2011}
+      \verb{file}
+      \verb Snapshot:/Users/alexishuchelmann/Zotero/storage/YCPPFHZ7/Les-ligatures-dans-les-navigateurs.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.typographisme.net/post/Les-ligatures-dans-les-navigateurs#note7b
+      \endverb
+    \endentry
+    \entry{pierazzo_digital_2014}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=61d29395a0c9ab5d31820441d0ee5eb5}{%
+           family={Pierazzo},
+           family_i={P\bibinitperiod},
+           given={Elena},
+           given_i={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{61d29395a0c9ab5d31820441d0ee5eb5}
+      \strng{fullhash}{61d29395a0c9ab5d31820441d0ee5eb5}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labelyear}{2014}
+      \field{labelmonth}{09}
+      \field{labelday}{28}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This book provides an up-to-date, coherent and comprehensive treatment of digital scholarly editing, organized according to the typical timeline and workflow of the preparation of an edition: from the choice of the object to edit, the editorial work, post-production and publication, the use of the published edition, to long-term issues and the ultimate significance of the published work. The author also examines from a theoretical and methodological point of view the issues and problems that emerge during these stages with the application of computational techniques and methods. Building on previous publications on the topic, the book discusses the most significant developments in digital textual scholarship, claiming that the alterations in traditional editorial practices necessitated by the use of computers impose radical changes in the way we think and manage texts, documents, editions and the public. It is of interest not only to scholarly editors, but to all involved in publishing and readership in a digital environment in the humanities.}
+      \field{day}{28}
+      \field{langid}{english}
+      \field{month}{09}
+      \field{shorttitle}{Digital Scholarly Editing}
+      \field{title}{Digital Scholarly Editing: Theories, Models and Methods}
+      \field{urlday}{28}
+      \field{urlmonth}{01}
+      \field{urlyear}{2019}
+      \field{year}{2014}
+      \verb{file}
+      \verb Full Text PDF:/Users/alexishuchelmann/Zotero/storage/LDSDH6UE/Pierazzo - 2014 - Digital Scholarly Editing Theories, Models and Me.pdf:application/pdf;Snapshot:/Users/alexishuchelmann/Zotero/storage/VPRAM9ED/hal-01182162.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://hal.univ-grenoble-alpes.fr/hal-01182162/document
+      \endverb
+    \endentry
+    \entry{roberts_catchword_1982}{inreference}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=0d31b117f7a91ee2dd917cdc1de51d2a}{%
+           family={Roberts},
+           family_i={R\bibinitperiod},
+           given={Matt},
+           given_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=bf84431d8d8341176a272f3b28757182}{%
+           family={Etherington},
+           family_i={E\bibinitperiod},
+           given={Don},
+           given_i={D\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Washington}%
+      }
+      \list{publisher}{1}{%
+        {Library of Congress}%
+      }
+      \strng{namehash}{a8f111b2fceb5185319b7f5717567b8d}
+      \strng{fullhash}{a8f111b2fceb5185319b7f5717567b8d}
+      \field{sortinit}{R}
+      \field{sortinithash}{c7387613477035a752d935acfc3e3ea2}
+      \field{labelyear}{1982}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Bookbinding and the Conservation of Books. A Dictionary of Descriptive Terminology}
+      \field{langid}{english}
+      \field{title}{Catchword}
+      \field{urlday}{17}
+      \field{urlmonth}{10}
+      \field{urlyear}{2019}
+      \field{year}{1982}
+      \verb{url}
+      \verb http://cool.conservation-us.org/don/don.html
+      \endverb
+    \endentry
+    \entry{shillingsburg_gutenberg_2006}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=060911a6942625d1f00c094d6d7eb0ba}{%
+           family={Shillingsburg},
+           family_i={S\bibinitperiod},
+           given={Peter\bibnamedelima L.},
+           given_i={P\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{060911a6942625d1f00c094d6d7eb0ba}
+      \strng{fullhash}{060911a6942625d1f00c094d6d7eb0ba}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelyear}{2006}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{978-0-511-61794-2}
+      \field{shorttitle}{From Gutenberg to Google}
+      \field{title}{From Gutenberg to Google: Electronic Representations of Literary Texts}
+      \field{urlday}{28}
+      \field{urlmonth}{01}
+      \field{urlyear}{2019}
+      \field{year}{2006}
+      \verb{doi}
+      \verb 10.1017/CBO9780511617942
+      \endverb
+      \verb{url}
+      \verb http://ebooks.cambridge.org/ref/id/CBO9780511617942
+      \endverb
+    \endentry
+    \entry{smith_rhyme_2017}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=480f449e0bc8cd974fc5860130b88f46}{%
+           family={Smith},
+           family_i={S\bibinitperiod},
+           given={Courtney\bibnamedelima Weiss},
+           given_i={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{480f449e0bc8cd974fc5860130b88f46}
+      \strng{fullhash}{480f449e0bc8cd974fc5860130b88f46}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelyear}{2017}
+      \field{labelmonth}{10}
+      \field{labelday}{13}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{13}
+      \field{issn}{0026-8232}
+      \field{journaltitle}{Modern Philology}
+      \field{month}{10}
+      \field{number}{2}
+      \field{shortjournal}{Modern Philology}
+      \field{title}{Rhyme and Reason in John Wilkins’s Philosophical Language Scheme}
+      \field{urlday}{16}
+      \field{urlmonth}{04}
+      \field{urlyear}{2019}
+      \field{volume}{115}
+      \field{year}{2017}
+      \field{pages}{183\bibrangedash 212}
+      \range{pages}{30}
+      \verb{doi}
+      \verb 10.1086/692809
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/alexishuchelmann/Zotero/storage/N3PP4VZR/Smith - 2017 - Rhyme and Reason in John Wilkins’s Philosophical L.pdf:application/pdf;Snapshot:/Users/alexishuchelmann/Zotero/storage/EB4D9AGL/692809.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://www.journals.uchicago.edu/doi/full/10.1086/692809
+      \endverb
+    \endentry
+    \entry{vanhoutte_introduction_2004}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=81b96c1bf3fab8ccf140393e3c5253a2}{%
+           family={Vanhoutte},
+           family_i={V\bibinitperiod},
+           given={Edward},
+           given_i={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{81b96c1bf3fab8ccf140393e3c5253a2}
+      \strng{fullhash}{81b96c1bf3fab8ccf140393e3c5253a2}
+      \field{sortinit}{V}
+      \field{sortinithash}{d18f5ce25ce0b5ca7f924e3f6c04870e}
+      \field{labelyear}{2004}
+      \field{labelmonth}{04}
+      \field{labelday}{01}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract. For the benefit of the readers and the authors of this special issue on electronic scholarly editing, this short article introduces the Text Encoding}
+      \field{day}{01}
+      \field{issn}{0268-1145}
+      \field{journaltitle}{Literary and Linguistic Computing}
+      \field{langid}{english}
+      \field{month}{04}
+      \field{number}{1}
+      \field{shortjournal}{Lit Linguist Computing}
+      \field{title}{An Introduction to the {TEI} and the {TEI} Consortium}
+      \field{urlday}{23}
+      \field{urlmonth}{01}
+      \field{urlyear}{2019}
+      \field{volume}{19}
+      \field{year}{2004}
+      \field{pages}{9\bibrangedash 16}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1093/llc/19.1.9
+      \endverb
+      \verb{file}
+      \verb Snapshot:/Users/alexishuchelmann/Zotero/storage/AGZNLUJJ/928389.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/dsh/article/19/1/9/928389
+      \endverb
+    \endentry
+    \entry{west_rules_2006}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=ad9ce2555cd8aeca6871f4932817e125}{%
+           family={West},
+           family_i={W\bibinitperiod},
+           given={Andrew},
+           given_i={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{ad9ce2555cd8aeca6871f4932817e125}
+      \strng{fullhash}{ad9ce2555cd8aeca6871f4932817e125}
+      \field{sortinit}{W}
+      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
+      \field{labelyear}{2006}
+      \field{labelmonth}{06}
+      \field{labelday}{12}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{12}
+      \field{month}{06}
+      \field{title}{The Rules for Long S}
+      \field{titleaddon}{{BabelStone} Blog}
+      \field{urlday}{16}
+      \field{urlmonth}{10}
+      \field{urlyear}{2019}
+      \field{year}{2006}
+      \verb{url}
+      \verb http://www.babelstone.co.uk/Blog/2006/06/rules-for-long-s.html
+      \endverb
+    \endentry
+    \entry{wilkins_essay_1668}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=46f3e4969e0fd517f56ace6e600bdca6}{%
+           family={Wilkins},
+           family_i={W\bibinitperiod},
+           given={John},
+           given_i={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{46f3e4969e0fd517f56ace6e600bdca6}
+      \strng{fullhash}{46f3e4969e0fd517f56ace6e600bdca6}
+      \field{sortinit}{W}
+      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
+      \field{extrayear}{1}
+      \field{labelyear}{1668}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{An Essay towards a Real Character, and a Philosophical Language (London, 1668) is the best-remembered of the numerous works of John Wilkins, in which he expounds a new universal language, meant primarily to facilitate international communication among scholars, but envisioned for use by diplomats, travelers, and merchants as well.}
+      \field{title}{An Essay towards a Real Character and a Philosophical Language}
+      \field{urlday}{16}
+      \field{urlmonth}{04}
+      \field{urlyear}{2019}
+      \field{year}{1668}
+      \verb{url}
+      \verb https://books.google.fr/books?id=Q85TAAAAcAAJ
+      \endverb
+      \keyw{Engineered languages}
+    \endentry
+    \entry{wilkins_essay_1668-1}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=46f3e4969e0fd517f56ace6e600bdca6}{%
+           family={Wilkins},
+           family_i={W\bibinitperiod},
+           given={John},
+           given_i={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{46f3e4969e0fd517f56ace6e600bdca6}
+      \strng{fullhash}{46f3e4969e0fd517f56ace6e600bdca6}
+      \field{sortinit}{W}
+      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
+      \field{extrayear}{2}
+      \field{labelyear}{1668}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2015}
+      \field{title}{An essay towards a real character, and a philosophical language by John Wilkins ...}
+      \field{year}{1668}
+      \verb{url}
+      \verb http://name.umdl.umich.edu/A66045.0001.001
+      \endverb
+    \endentry
+    \entry{wittern_making_2009}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=0ed36f4aa87d6ddafd79d0335d65855d}{%
+           family={Wittern},
+           family_i={W\bibinitperiod},
+           given={Christian},
+           given_i={C\bibinitperiod}}}%
+        {{uniquename=0,hash=df6b9442a33680370669a07f19c4f569}{%
+           family={Ciula},
+           family_i={C\bibinitperiod},
+           given={Arianna},
+           given_i={A\bibinitperiod}}}%
+        {{uniquename=0,hash=4c13e7aa8c00bb6ab7996941407bed84}{%
+           family={Tuohy},
+           family_i={T\bibinitperiod},
+           given={Conal},
+           given_i={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{986851364c7f8145ea4a3a6cc23f5d1a}
+      \strng{fullhash}{986851364c7f8145ea4a3a6cc23f5d1a}
+      \field{sortinit}{W}
+      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
+      \field{labelyear}{2009}
+      \field{labelmonth}{09}
+      \field{labelday}{01}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The {TEI} Consortium has taken on the task of maintaining the Guidelines for Electronic Text Encoding and Interchange. This article describes how the latest major revision to these Guidelines was developed over the course of {>}6 years by the members of the {TEI} Technical Council and workgroups charged and overseen by the Council and gives background information and reasoning for the decisions taken. Among the new additions for P5, two of the most outstanding, the chapters on Names, Dates, People, and Places and on digital facsimiles are treated in some more detail. The article concludes with a brief account of the decisions made with respect to customization and conformance.}
+      \field{day}{01}
+      \field{issn}{0268-1145}
+      \field{journaltitle}{Literary and Linguistic Computing}
+      \field{langid}{english}
+      \field{month}{09}
+      \field{number}{3}
+      \field{shortjournal}{Lit Linguist Computing}
+      \field{title}{The making of {TEI} P5}
+      \field{urlday}{17}
+      \field{urlmonth}{10}
+      \field{urlyear}{2019}
+      \field{volume}{24}
+      \field{year}{2009}
+      \field{pages}{281\bibrangedash 296}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1093/llc/fqp017
+      \endverb
+      \verb{file}
+      \verb Snapshot:/Users/alexishuchelmann/Zotero/storage/KPUSWZZ3/968658.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/dsh/article/24/3/281/968658
+      \endverb
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

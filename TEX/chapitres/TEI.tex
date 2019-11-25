@@ -1,0 +1,20 @@
+\chapter{Le schéma d'encodage TEI}\label{TEI}
+\section{Un standard SGML et XML}\label{TEIXML}
+Le SGML (\emph{Standard Generalized Markup Language}) est un langage de description à balises apparu en 1986 qui permet de définir des éléments et leurs relations hiérarchiques les uns aux autres.
+Dès 1987, un groupe de chercheurs new-yorkais utilise ce standard comme base sur laquelle créer des éléments de descriptions de toutes sortes de textes : manuscrits, dictionnaires, pièces de théâtres, lettres, etc, de toutes époques et de toutes langues.
+Ils publient leurs consignes en 1990 en tant que TEI P1 (Text Encoding Initiative Proposal 1), et la P3 publié en 1994 contient plus de 600 éléments définis sur 1292 pages \parencite{vanhoutte_introduction_2004}.
+
+Créé en 1998, le XML (\emph{eXtented Markup Language}) est un dérivé de SGML à la syntaxe plus versatile.
+Moins d'éléments sont définis à la base, et il exige un encodage Unicode là où le SGML laissait les utilisateurs choisir leur jeu de caractères.
+TEI P4, publié en 2002, est compatible avec cette nouvelle spécification autant qu'avec le SGML ; mais en 2007, la version P5 est exclusivement taillée pour le XML.
+Elle a des exigences plus strictes quand au type de contenus que peuvent présenter les attributs et les balises, introduit de nouveaux éléments permettant de décrire en détail les entités nommées par des noms propres (personnes, lieux, peuples, etc.), et s'ouvre davantage à la customisation en améliorant la modularité des éléments \parencite{wittern_making_2009}.
+En date du 16 juillet 2019, les indications TEI P5 sont décrites sur 1934 pages.
+\section{TEI Lite}\label{TEILite}
+La spécification TEI complète n'est jamais employée dans son entièreté dans un projet.
+Des sous-spécifications moins exhaustives, avec quelquefois des ajouts modulables, sont destinées à des projets à l'envergure bien définie, comme la description des documents épigraphiques (EpiDoc), la mise en forme d'articles de journal (jTEI Article), ou la description de corpus linguistiques (Corpus)\footnote{\url{https://tei-c.org/guidelines/customization/}}.
+L'une d'entre elle est décrite comme pouvant \og couvrir 90\% des besoins de 90\% de la communauté\fg : il s'agit de TEI Lite\footnote{\url{https://tei-c.org/guidelines/customization/Lite/}}.
+Comme le laisse entendre son slogan, TEI Lite est souvent la seule version du schéma que rencontre les utilisateurs, sa description ne fait que 294 pages.
+\section{Potentiel descriptif}\label{TEIPot}
+Un document TEI, compris entre les balises \code{<TEI>…</TEI>} a deux éléments principaux : l'en-tête \code{<teiHeader>} et le texte \code{<text>}.
+%\begin{lstlisting}[language=XML,label=TEIminim,frame=single,caption=Some Code]
+%\end{lstlisting}

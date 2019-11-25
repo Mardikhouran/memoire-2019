@@ -1,0 +1,47 @@
+\chapter{Méthodologie de travail}\label{Method}
+%\chapterprecis{Où l'on explique comment sera réalisée l'entreprise considérée présentemment.}
+\section{Choix des sources}\label{MethodSource}
+Pour réaliser le livre électronique, on prendra pour base la digitalisation préexistante du Texte Encoding Project, en se référant aux numérisations Google Books pour vérification, et enfin à un exemplaire imprimé original.
+\subsection{Sources physiques}
+Il en existe trois exemplaires physiques du livre à la Bibliothèque Nationale Universitaire de Strasbourg : le texte original imprimé en 1668, qui est uniquement consultable sur place ; et deux fac-similés produits par le service d'impression à la demande à partir de numérisations.
+\subsection{Sources numériques : les images}
+Il existe plusieurs numérisations depuis Google Books ; seules trois peuvent être lues intégralement, provenant d'originaux de la bibliothèque nationale de la République Tchèque\footnote{\url{https://books.google.fr/books?id=Bu7pwpr5qBcC} (consulté le 16 octobre 2019)}, de la bibliothèque municipale de Lyon\footnote{\url{https://books.google.fr/books?id=BCCtZjBtiEYC} (consulté le 16 octobre 2019)} et de la bibliothèque de l'État de Bavière\footnote{\url{https://books.google.fr/books?id=Q85TAAAAcAAJ} (consulté le 16 octobre 2019)}.
+Elles permettent la recherche de texte, mais la reconnaissance automatique des caractères est très mal adaptée à la police et aux ligatures employées ici, et ne permet de rien extraire qui soit utilisable.
+Lues en ligne, ces images sont en couleur ; une fois téléchargées en tant que PDF, elles sont en noir et blanc, ce qui baisse la qualité de la reproduction.
+\subsection{Sources numériques : l'Université du Michigan}
+La digitalisation d'ETRC par le Text Encoding Project de l'université du Michigan (cf \ref{WilkinsChoixNum}) a été saisie originellement dans un schéma SGML ressemblant à la spécification TEI 3, converti par la suite en un schéma XML proche de la spécification TEI 4.
+À partir de là, on recherchera les différences entre ce schéma et le schéma cible (TEI 5) et on établira un tableau de correspondances qui servira à la conversion automatique de l'un à l'autre grâce à une feuille de style XSLT (voir section \ref{MethodConv}).
+\section{Travail éditorial : recherches à faire et décisions à prendre}\label{MethodTrav}
+\subsection{Omissions dans la digitalisation du Text Encoding Project}
+En plus de la non prise en compte des caractères non-latins, 
+\subsection{Errata}
+Wilkins donne une page d'errata en début du livre, signalant les erreurs découvertes après l'impression.
+La question est de savoir si l'on conserve cette page telle que dans la source, ou si l'on intègre les corrections dans le corps du texte.
+L'élément \code{<choice>} de la spécification TEI permet de signaler une modification éditorial dans le texte, en encadrant un élément \code{<sic>} correspondant au texte (fautif) original, et un élément \code{<corr>} correspondant à la correction.
+Ce dernier peut également préciser l'origine de la correction avec un attribut \code{@resp}, renvoyant à un élément \code{respStmt} définissant qui a pris cette décision de correction.
+On peut définir plusieurs sources de correction ainsi.
+\subsection{Particularités orthographiques et typographiques}
+Wilkins n'emploie pas les conventions typographiques actuelles.
+Quelles sont celles qu'une réédition doit conserver, si le but est de respecter la source tout en étant lisible par les lecteurs d'aujourd'hui ?
+\subsubsection{Capitalisation}
+Certains mots, en majorité des substantifs et adjectifs commencent par une majuscule à l'intérieur des phrases, comme on peut le voir par exemple en p. 353 :
+\begin{quotation}
+\begin{otherlanguage*}{english}
+Noun \emph{Adjectives} need not have any note to expreſs \emph{Number}, \emph{Gender}, \emph{Caſe}, becauſe in all theſe they agree with their Subſtantives; unleſs ſuch Adjectives as are uſed Subſtantively, by reaſon of their compoſition with the Tranſcendental marks of \emph{Perſon}, \emph{Thing}, \emph{Time}, \emph{Place}, \&c.
+\end{otherlanguage*}
+\end{quotation}
+Comme cela n'entraîne pas de problèmes de lecture, on les conservera telles quelles.
+\subsubsection{s long 〈ſ〉}
+ETRC emploie deux caractères là où l'anglais moderne n'utilise que le 〈s〉 minuscule : le second est le s long 〈ſ〉, apparaissant dans tous les contextes excepté à la fin des mots.
+Cette lettre a cessé d'être d'un usage courant vers le début du \textsc{xix}\ieme{} siècle, pour des raison d'économie auprès des imprimeurs, et parce qu'elle pouvait se confondre à la lecture avec un 〈f〉 \parencite{west_rules_2006}.
+Pour cette dernière raison, il semble préférable d'utiliser le 〈s〉 rond par défaut ; mais comme certaines polices informatiques, comme EB Garamond, proposent des variantes de caractères dont le s long, que l'on peut activer à loisir.
+\subsubsection{Orthographe alternatives}
+
+\subsubsection{Réclame}
+Le premier mot de chaque page est répété au bas de la page précédente ; il s'agissait d'une pratique indiquant au relieur quelles pages devait se suivre \parencite{roberts_catchword_1982}.
+Cette particularité purement technique n'a pas besoin d'être répétée dans une édition électronique.
+\section{Conversion dans les formats HTML et EPUB}\label{MethodConv}
+À partir du fichier encodé en XML, il est possible de générer automatiquement un fichier HTML, et à partir de celui-ci un fichier EPUB.
+Pour cela, on emploiera une feuille de style XSLT.
+Celle-ci permet de transformer un fichier XML en manipulant les balises et les attributs.
+Sa cible peut être un nouveau fichier XML, un fichier HTML, ou même un fichier \LaTeX{} qui servira de base à un PDF.

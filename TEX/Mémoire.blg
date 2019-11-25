@@ -1,0 +1,14 @@
+[0] Config.pm:343> INFO - This is Biber 2.5
+[0] Config.pm:346> INFO - Logfile is 'MeÌmoire.blg'
+[55] biber-darwin:290> INFO - === Thu Oct 17, 2019, 20:00:25
+[83] Biber.pm:351> INFO - Reading 'MeÌmoire.bcf'
+[188] Biber.pm:773> INFO - Using all citekeys in bib section 0
+[205] Biber.pm:3493> INFO - Processing section 0
+[224] Biber.pm:3657> INFO - Looking for bibtex format file 'MasterÉd.bib' for section 0
+[227] bibtex.pm:1187> INFO - Decoding LaTeX character macros into UTF-8
+[232] bibtex.pm:1048> INFO - Found BibTeX data source 'MasterÉd.bib'
+[332] UCollate.pm:66> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[332] UCollate.pm:66> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[332] Biber.pm:3306> INFO - Sorting list 'nyt/global/' of type 'entry' with scheme 'nyt' and locale 'fr-FR'
+[357] bbl.pm:526> INFO - Writing 'MeÌmoire.bbl' with encoding 'UTF-8'
+[361] bbl.pm:619> INFO - Output to MeÌmoire.bbl

@@ -1,0 +1,119 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+\documentclass[12pt,twoside,a5paper]{memoir}
+\chapterstyle{thatcher}
+\usepackage{geometry}
+\geometry{a5paper}
+\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{soul}	%surlignage
+\usepackage[main=french,english]{babel}
+\usepackage{fontspec,xltxtra,xunicode}
+\defaultfontfeatures{Mapping=tex-text}
+\usepackage{emptypage}	%pas de numéros sur pages blanches
+\usepackage{pdfpages}
+\graphicspath{{images/}}
+
+\setromanfont[Ligatures={Required,%
+Common,Contextual,Rare,Historic,TeX},Numbers=OldStyle,RawFeature={+ss05,+dlig,+hlig,+calt,+liga},]{EB Garamond}
+\setsansfont[Scale=MatchLowercase,Mapping=tex-text]{Noto Sans}
+\setmonofont[Scale=MatchLowercase]{Everson Mono}
+
+\sethlcolor{lightgray}
+\newcommand{\code}[1]{\hl{\texttt{#1}}}
+\usepackage{listings}
+	
+\usepackage[autostyle=true]{csquotes}
+\usepackage[
+backend=biber,
+style=authoryear,
+citestyle=authoryear-icomp,
+sorting=nyt,
+ibidtracker=true
+]{biblatex}
+\AtEveryBibitem{
+ 	\clearlist{language}
+	\clearfield{day}%
+   	\clearfield{month}%
+   	\clearfield{endday}%
+   	\clearfield{endmonth}%
+	\clearfield{doi}
+	\clearfield{issn}
+	\clearfield{isbn}
+}
+\addbibresource{MasterÉd.bib}
+\DeclareCiteCommand{\citeyear}
+    {}
+    {\bibhyperref{\printdate}}
+    {\multicitedelim}
+    {}
+\DeclareCiteCommand{\citeyearpar}
+    {}
+    {\mkbibparens{\bibhyperref{\printdate}}}
+    {\multicitedelim}
+    {} %pour les hyperliens
+\renewcommand{\mkibid}[1]{\emph{#1}}
+
+\usepackage{rotating,booktabs}	%tableaux horizontaux
+\usepackage[flushleft]{threeparttable}
+\usepackage{multicol}
+\usepackage{longtable}		%plus sûr que tabu ?
+\usepackage{diagbox}
+\def\@xobeysp{ } %espaces sécables (table des matières)
+\usepackage[hidelinks]{hyperref}
+\usepackage[toc,nonumberlist,acronym,nomain]{glossaries}
+\input{chapitres/glossaire}
+\makeglossaries %faire avec terminal (pas de chemin absolu > cd répertoire avant)
+\usepackage{glossary-mcols}
+\renewcommand*{\glsmcols}{2}
+\setglossarystyle{mcolindex}
+\usepackage{arabxetex} %mettre à la fin, mais avant les redefs de sections
+\newfontfamily\arabicfont[Script=Arabic]{Times New Roman}
+\usepackage{chngcntr}		%notes de bas de page
+\counterwithout{footnote}{chapter}
+\usepackage[restart,breakwithin]{parnotes}	%notes de chapitres
+\renewcommand{\parnotefmt}[1]{\normalsize\rmfamily\noindent #1}
+
+\usepackage{setspace}	%contrôle des espacements
+\setsecnumdepth{subsection}
+\settocdepth{subsection}
+\renewcommand{\thechapter}{\Roman{chapter}}
+\renewcommand{\thesection}{\arabic{section}}
+\renewcommand{\thesubsection}{\arabic{section}.\roman{subsection}}
+\setsecheadstyle{\large\bfseries}		%
+\setsubsecheadstyle{\normalsize\bfseries\textit}		%subsections en italiques et gras
+\setsubsubsecheadstyle{\small\bfseries}		%
+\usepackage[inline]{enumitem}	%change les compteurs de listes
+\usepackage{numprint} %apparence des chiffres
+
+\expandafter\def\expandafter\quote\expandafter{\quote\singlespacing}	%espacement citations
+
+\title{Rééditer un texte philosophico-linguistique : la digitalisation de \emph{An Essay towards a Real Character, and a Philosophical Language} de John Wilkins (1668)}
+\author{Alexis Huchelmann}
+\date{}
+
+\begin{document}
+\frontmatter
+\maketitle
+\pagenumbering{gobble}
+%\include{chapitres/remerciements}
+\mainmatter
+\include{chapitres/introduction}
+\listoffigures
+\clearpage
+\setcounter{part}{0}
+\include{chapitres/HistDigit}
+\include{chapitres/TEI}
+\include{chapitres/Wilkins}
+\include{chapitres/Défis}
+\include{chapitres/Méthodologie}
+\include{chapitres/Conclusion}
+\nocite{*}
+
+\backmatter
+\printindex
+\printbibliography[heading=bibintoc]
+\pagebreak
+\tableofcontents*
+\end{document}
